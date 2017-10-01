@@ -11,7 +11,7 @@ run apt-get update && apt-get install -y \
     rlwrap \
     vim-nox \
     unzip \
-    gcc \
+    g++ \
     cmake \
     libboost-all-dev
 
