@@ -22,7 +22,8 @@ run rm -rf /var/lib/apt/lists/*
 
 run sudo update-alternatives \
     --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 100 \
-    --slave /usr/bin/g++ g++ /usr/bin/g++-4.9
+    --slave /usr/bin/g++ g++ /usr/bin/g++-4.9 \
+    --slave /usr/bin/c++ c++ /usr/bin/g++-4.9
 
 env HOME /home/$USER
 
