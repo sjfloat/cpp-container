@@ -15,7 +15,8 @@ run apt-get update && apt-get install -y \
     vim-nox \
     unzip \
     cmake \
-    libboost-all-dev
+    libboost-all-dev \
+    autoconf automake libtool autoconf-archive
 
 run apt-get clean
 run rm -rf /var/lib/apt/lists/*
